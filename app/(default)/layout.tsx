@@ -33,7 +33,9 @@ export default function DefaultLayout({
 
       </main>
 
-      <Footer />
+      <div className={"max-sm:relative max-sm:bottom-36"}>
+        <Footer />
+      </div>
     </>
   )
 }

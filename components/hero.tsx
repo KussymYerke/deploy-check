@@ -21,24 +21,21 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-10 md:pb-0">
+        <div className="relative pt-32 md:pt-10 md:pb-0 sm:pb-0 sm:mb-0">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-0  ">
+          <div className="max-w-3xl mx-auto text-center md:pb-0  ">
               <div className={"relative"}>
                   <Image className="max-w-full mx-auto md:w-3/4"  data-aos="fade-up" src={Sabira} alt={'Margulan'} />
                   <div className={"relative bottom-48 z-10"}>
-                      <h1 className="h1 text-7xl mb-0 tracking-wide" data-aos="fade-up">САБИРА БИБАТЫР</h1>
-                      <p className="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">Домбырашы, ұстаз, коуч, және ұлт жанашары</p>
+                      <h1 className="h1 lg:text-7xl max-sm:text-4xl max-sm:mt-5 tracking-wide" data-aos="fade-up">САБИРА БИБАТЫР</h1>
+                      <p className="lg:text-xl max-sm:text-md lg:mb-8 max-sm:mb-0" data-aos="fade-up" data-aos-delay="200">Домбырашы, ұстаз, коуч, және ұлт жанашары</p>
                   </div>
-                  <div className="max-w-xs mx-auto relative bottom-36 sm:max-w-none sm:flex sm:justify-center">
+                  <div className="max-w-xs mx-auto relative bottom-36 max-sm:bottom-40 sm:max-w-none sm:flex sm:justify-center max-sm:w-52">
                       <div data-aos="fade-up" data-aos-delay="200">
-                          <a className="btn text-white bg-purple-600 rounded hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Кавер Тыңдау</a>
+                          <a className="btn text-white bg-purple-600 rounded hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 max-sm:-mt-44" href="#0">Кавер Тыңдау</a>
                       </div>
                       <div data-aos="fade-up" data-aos-delay="400">
                           <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Кнопка2</a>
-                      </div>
-                      <div data-aos="fade-up" data-aos-delay="600">
-                          <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Кнопка3</a>
                       </div>
                   </div>
               </div>

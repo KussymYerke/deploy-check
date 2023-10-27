@@ -6,9 +6,9 @@ import Youtube from "@/public/images/yt.png"
 
 export default function Music() {
   return (
-    <section>
+    <section className={"max-sm:relative max-sm:bottom-36"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="lg:py-12 max-sm:py-6 md:py-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -17,10 +17,10 @@ export default function Music() {
           </div>
 
           {/* Items */}
-          <div className={"flex justify-start items-center"}>
+          <div className={"lg:flex lg:justify-start lg:items-center"}>
             <Image className={'max-w-full mb-10  mr-16 md:max-w-none h-auto rounded-2xl'} width={540} height={405} src={MyWhisper} alt={'Music My Whisper Album'} />
             <div>
-              <ul className={"text-2xl cursor-pointer"}>
+              <ul className={"lg:text-2xl max-sm:text-xl cursor-pointer"}>
                 <li>1) Careless Whisper </li>
                 <li>2) Stranger in the night</li>
                 <li>3) Shape of my heart</li>
@@ -35,16 +35,13 @@ export default function Music() {
                 <li>12) I Just Called to Say I Love You</li>
               </ul>
               <div>
-                <ul className={"flex items-center justify-start -ml-8"}>
+                <ul className={"flex items-center justify-start lg:-ml-8"}>
                   <li><Image alt="Itunes" width={128} height={128} src={Apple}/></li>
                   <li><Image alt="Spotify" width={128} height={128} src={Spotify}/></li>
                   <li><Image alt="Youtube" width={128} height={128} src={Youtube}/></li>
                 </ul>
               </div>
             </div>
-          </div>
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
-
           </div>
 
         </div>

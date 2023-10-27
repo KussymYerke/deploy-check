@@ -9,6 +9,7 @@ import Hero from '@/components/hero'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
+import Feat from '@/components/feature'
 
 export default function Home() {
   return (

@@ -14,12 +14,14 @@ import Blocks from "@/components/blocks";
 import ModalVideo from "@/components/modal-video";
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import About from "@/components/about"
+import Feat from "@/components/feature";
 
 export default function Home() {
     return (
         <>
-            <Blocks />
             <About />
+            <Feat />
+            <Blocks />
             {/*<Testimonials />*/}
             {/*<Newsletter />*/}
         </>
