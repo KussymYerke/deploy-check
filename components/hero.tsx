@@ -1,13 +1,14 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import Sabira from '@/public/images/SabiraBibatyr.png'
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-
         {/* Illustration behind hero content */}
-        <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
+        <div className="absolute -left-96 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
@@ -20,33 +21,29 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
-
+        <div className="relative pt-32 pb-10 md:pt-10 md:pb-0">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-0  ">
+              <div className={"relative"}>
+                  <Image className="max-w-full mx-auto md:w-3/4"  data-aos="fade-up" src={Sabira} alt={'Margulan'} />
+                  <div className={"relative bottom-48 z-10"}>
+                      <h1 className="h1 text-7xl mb-0 tracking-wide" data-aos="fade-up">САБИРА БИБАТЫР</h1>
+                      <p className="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">Домбырашы, ұстаз, коуч, және ұлт жанашары</p>
+                  </div>
+                  <div className="max-w-xs mx-auto relative bottom-36 sm:max-w-none sm:flex sm:justify-center">
+                      <div data-aos="fade-up" data-aos-delay="200">
+                          <a className="btn text-white bg-purple-600 rounded hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Кавер Тыңдау</a>
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="400">
+                          <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Кнопка2</a>
+                      </div>
+                      <div data-aos="fade-up" data-aos-delay="600">
+                          <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Кнопка3</a>
+                      </div>
+                  </div>
               </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
-            </div>
           </div>
-
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
-
         </div>
-
       </div>
     </section>
   )
