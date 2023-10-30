@@ -9,7 +9,6 @@ export default function Music() {
     <section className={"max-sm:relative max-sm:bottom-36"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="lg:py-12 max-sm:py-6 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4" data-aos="fade-up" data-aos-delay="200">My Whisper Домбыра ковер.</h2>
