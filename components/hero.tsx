@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="relative pt-32 md:pt-10 md:pb-0 sm:pb-0 sm:mb-0">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center md:pb-0">
-              <div className={"relative max-sm:bottom-12 "}>
+              <div className={"relative max-sm:bottom-24"}>
                   <Image className="max-w-full mx-auto md:w-3/4"  data-aos="fade-up" src={Sabira} alt={'Margulan'} />
                   <div className={"relative bottom-48 z-10"}>
                       <h1 className="h1 lg:text-7xl max-sm:text-4xl max-sm:mt-5 tracking-wide" data-aos="fade-up">САБИРА БИБАТЫР</h1>
