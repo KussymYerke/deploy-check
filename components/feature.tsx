@@ -27,10 +27,10 @@ export default function Feature() {
         <section className="relative">
 
             {/* Section background (needs .relative class on parent and next sibling elements) */}
-            <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>
-            <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+            {/*<div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>*/}
+            {/*<div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>*/}
 
-            <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-20">
                 <div className="pt-12 md:pt-20">
 
                     {/* Section header */}
@@ -51,43 +51,43 @@ export default function Feature() {
                             {/* Tabs buttons */}
                             <div className="mb-8 md:mb-0">
                                 <a
-                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-purple-600 border-transparent'}`}
                                     href="#0"
                                     onClick={(e) => { e.preventDefault(); setTab(1); }}
                                 >
                                     <div>
                                         <div className="font-bold leading-snug text-zinc-950 tracking-tight mb-1">Алматыда 2 орталығымыз бар</div>
-                                        <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                                        <div className="text-black">Take collaboration to the next level with security and administrative features built for teams.</div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                                         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                                            <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" fill="#191919" />
                                         </svg>
                                     </div>
                                 </a>
                                 <a
-                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-purple-600 border-transparent'}`}
                                     href="#0"
                                     onClick={(e) => { e.preventDefault(); setTab(2); }}
                                 >
                                     <div>
                                         <div className="font-bold leading-snug text-zinc-950  tracking-tight mb-1">500ден аса оқушыны оқыттық</div>
-                                        <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                                        <div className="text-black">Take collaboration to the next level with security and administrative features built for teams.</div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                                         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                                            <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z"  fill="#191919" fillRule="nonzero" />
                                         </svg>
                                     </div>
                                 </a>
                                 <a
-                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-purple-600 border-transparent'}`}
                                     href="#0"
                                     onClick={(e) => { e.preventDefault(); setTab(3); }}
                                 >
                                     <div>
                                         <div className="font-bold leading-snug text-zinc-950 tracking-tight mb-1">2019 жылдан бері жұмыс жасап жатырмыз</div>
-                                        <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                                        <div className="text-black">Take collaboration to the next level with security and administrative features built for teams.</div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                                         <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

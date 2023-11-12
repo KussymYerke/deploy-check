@@ -19,7 +19,7 @@ import Feat from "@/components/feature";
 export default function Home() {
     return (
         <>
-            <About />
+            {/*<About />*/}
             <Feat />
             <Blocks />
             {/*<Testimonials />*/}
