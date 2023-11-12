@@ -32,10 +32,10 @@ export default function Hero() {
                   </div>
                   <div className="max-w-xs mx-auto relative bottom-36 max-sm:bottom-40 sm:max-w-none sm:flex sm:justify-center max-sm:w-52">
                       <div data-aos="fade-up" data-aos-delay="200">
-                          <a className="btn text-white bg-purple-600 rounded hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 max-sm:-mt-44" href="#0">Кавер Тыңдау</a>
+                          <a className="btn text-white bg-purple-600 rounded hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 max-sm:-mt-44" href="#me">Мен туралы</a>
                       </div>
                       <div data-aos="fade-up" data-aos-delay="400">
-                          <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Кнопка2</a>
+                          <a className="btn text-white bg-gray-700 rounded hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#shop">Домбыра дүкені</a>
                       </div>
                   </div>
               </div>
