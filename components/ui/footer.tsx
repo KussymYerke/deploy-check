@@ -22,7 +22,7 @@ export default function Footer() {
                   <Image className="w-48 relative -left-8" src={logo} alt={'logo'} />
                 </Link>
               </div>
-              <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+              <div className="text-gray-400"></div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}

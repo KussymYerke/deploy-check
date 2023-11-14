@@ -7,7 +7,7 @@ export default function Blocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Мектебіміздің ерекшеліктеріміз бен артықшылығымыз</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            {/*<p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>*/}
           </div>
 
           {/* Items */}
@@ -23,7 +23,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2 text-center">Тәжірибелі домбыра нұсқаушылары</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Біздің мектепте тәжірибелі домбыра дайындаушылары сізге ең тереңді білімді ұсынады.</p>
             </div>
 
             {/* 2nd item */}
@@ -34,7 +34,7 @@ export default function Blocks() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2 text-center">Жекелендірілген оқыту</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Оқу курстарымызды жекелендірілген жоспар мен оқыту бағдарламалары бойынша орындаймыз</p>
             </div>
 
             {/* 3rd item */}
@@ -48,7 +48,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2 text-center">Домбыра техникасы бойынша семинарлар</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Сізге домбыра техникасы мен үйрену тәсілдері туралы семинарлар береміз</p>
             </div>
 
             {/* 4th item */}
@@ -59,7 +59,7 @@ export default function Blocks() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2 text-center">Сахнаға шығу мүмкіндіктері</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Мұзыкалық жағдайда өзінізді көрсету мүмкіндіктері жасау үшін сахнаға шығу мүмкіндіктері бар</p>
             </div>
 
             {/* 5th item */}
@@ -72,7 +72,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Қолжетімді баға</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Мүдделі қызметкерлердің қызметімен жақсы баға аларсыздарыңыз</p>
             </div>
 
             {/* 6th item */}
@@ -86,7 +86,7 @@ export default function Blocks() {
                 </g>
               </svg>
               <h4 className="h4 mb-2 text-center">Қолдау көрсететін қауымдастық</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Біздің мектепте жаттығу процесінде сізге көмек көрсететін қауымдастық болады</p>
             </div>
 
           </div>
